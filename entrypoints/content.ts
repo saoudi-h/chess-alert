@@ -1,5 +1,5 @@
 export default defineContentScript({
-  matches: ['*://*.google.com/*'],
+  matches: ['*://*.chess.com/*', '*://*.lichess.org/*'],
   main() {
     console.log('Hello content.');
   },
