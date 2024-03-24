@@ -1,0 +1,28 @@
+{
+  "name": "chess-alert",
+  "description": "ChessVoice enhances your online chess experience by vocally notifying you of time discrepancies during blitz and bullet games on platforms like chess.com and lichess.org. It aims to keep you hyper-focused on your game strategy while managing your clock efficiently. Through customizable alert strategies, ChessVoice informs you when you're lagging behind your opponent's time or provides constant vocal updates on your remaining time after each move. Whether you're striving to maintain an edge in time-sensitive games or seeking to improve your time management skills, ChessVoice is your ideal companion on the virtual chessboard.",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "wxt": "^0.17.0"
+  }
+}
