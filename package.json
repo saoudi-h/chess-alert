@@ -1,6 +1,6 @@
 {
   "name": "chess-alert",
-  "description": "ChessVoice enhances your online chess experience by vocally notifying you of time discrepancies during blitz and bullet games on platforms like chess.com and lichess.org. It aims to keep you hyper-focused on your game strategy while managing your clock efficiently. Through customizable alert strategies, ChessVoice informs you when you're lagging behind your opponent's time or provides constant vocal updates on your remaining time after each move. Whether you're striving to maintain an edge in time-sensitive games or seeking to improve your time management skills, ChessVoice is your ideal companion on the virtual chessboard.",
+  "description": "ChessAlert vocally alerts you about time in blitz and bullet chess games on chess.com and lichess.org, helping you manage your clock efficiently and stay focused on your strategy.",
   "private": true,
   "version": "0.0.1",
   "type": "module",
